@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 interface EIP6963ProviderInfo {
   rdns: string;
   uuid: string;
