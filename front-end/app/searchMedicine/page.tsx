@@ -58,39 +58,34 @@ const SearchMedicinePage: React.FC = () => {
               <span className="font-bold">Name:</span> {medicine[0]}
             </p>
             <p>
-              <span className="font-bold">Batch Number:</span>{" "}
-              {medicine.batchNumber}
+              <span className="font-bold">Batch Number:</span> {medicine[1]}
             </p>
             <p>
-              <span className="font-bold">Package Number:</span>{" "}
-              {medicine.packageNumber}
+              <span className="font-bold">Package Number:</span> {medicine[2]}
             </p>
             <p>
-              <span className="font-bold">Generic Name:</span>{" "}
-              {medicine.genericName}
+              <span className="font-bold">Generic Name:</span> {medicine[3]}
             </p>
             <p>
-              <span className="font-bold">Form:</span> {medicine.form}
+              <span className="font-bold">Form:</span> {medicine[4]}
             </p>
             <p>
-              <span className="font-bold">Dosage:</span> {medicine.dosage}
+              <span className="font-bold">Dosage:</span> {medicine[5]}
             </p>
             <p>
               <span className="font-bold">Manufacturing Date:</span>{" "}
-              {medicine.manufacturingDate}
+              {medicine[6]}
             </p>
             <p>
-              <span className="font-bold">Expiring Date:</span>{" "}
-              {medicine.expiringDate}
+              <span className="font-bold">Expiring Date:</span> {medicine[7]}
             </p>
             <p>
               <span className="font-bold">Manufacturer Company:</span>{" "}
-              {medicine.manufacturerCompany}
+              {medicine[8]}
             </p>
             <p>
-              <span className="font-bold">Status:</span> {medicine.status}
+              <span className="font-bold">Status:</span> {medicine[9]}
             </p>
-            {/* Add all other fields as needed */}
           </div>
         </div>
       )}
